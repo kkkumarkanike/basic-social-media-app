@@ -1,0 +1,21 @@
+// download zip
+git inti 
+git add .
+git commit -m 'message'
+git remote add origin url
+git push
+
+// clone from url
+git add .
+git commit -m 'message'
+git push -u origin master
+
+// Branches
+
+Head -- latest change
+master -- main branch
+
+git branch branchName then git checkout branchName  or git checkout -b branchName
+git merge branchName
+
+git pull (Merge conflicts)
