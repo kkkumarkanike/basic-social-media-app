@@ -1,0 +1,25 @@
+.signup-card{
+    margin : auto;
+    border : 1px solid #ddd;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 5px 5px #ddd;
+    width: 400px;
+    padding: 30px;
+}
+@media (max-width: 499px) {
+    .signup-card{
+        width: 70%;
+    }
+    .space{
+        margin-top: 50px;
+    }
+}
+
+.submit-button{
+    padding: 8px;
+    background-color: #4C9494;
+    color: white;
+    border: none;
+    border-radius: 2px;
+
+}

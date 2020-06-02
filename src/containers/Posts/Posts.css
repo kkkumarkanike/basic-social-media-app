@@ -1,0 +1,31 @@
+
+.gap{
+    width: 100%;
+    display: inline-block;
+}
+.search{
+    display: inline-block;
+    width: 30%;
+}
+
+
+@media (max-width: 499px) {
+    .gap{
+        margin-top: 40px;
+    }
+}
+@media (min-width: 380px) and (max-width: 900px){
+    .gap{
+        width: 100%;
+        display: inline-block;
+    }
+}
+
+.submit-button{
+    padding: 8px;
+    background-color: #4C9494;
+    color: white;
+    border: none;
+    border-radius: 2px;
+
+}

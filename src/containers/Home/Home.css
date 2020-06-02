@@ -1,0 +1,47 @@
+.home{
+    text-align: center;
+}
+.banner{
+    font-size: 50px;
+    color: #4C9494;
+    transition: 0.3s all linear;
+    margin-top: 10px;
+}
+.icon{
+    font-size: 80px;
+    color: #4C9494;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+.btn{
+    padding : 15px;
+    border: none;
+}
+.primary{
+    background-color: #099490;
+    color: white;
+    border-radius: 3px;
+    border: #4C9494;
+}
+.primary:hover{
+    background-color: #4C9494;
+}
+.link-style{
+    text-decoration: none;
+    color: white;
+}
+
+@media (min-width : 380px) and (max-width: 499px) {
+    .icon{
+        font-size: 80px;
+        color: #4C9494;
+        margin-top: 150px;
+        margin-bottom: 0;
+    }
+    .banner{
+        font-size: 40px;
+        color: #4C9494;
+        transition: 0.3s all linear;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,55 @@
+
+.mobile-distance{
+    display: none;
+}
+
+@media(min-width: 399px) and (max-width : 499px){
+    .distance{
+        display: none;
+    }
+    .mobile-distance{
+        display: block;
+    }
+    .card{
+        margin: auto;
+        width: 90%;
+        padding : 10px;
+        border: 1px solid #dddddd;
+    }
+}
+@media(min-width: 500px) and (max-width : 799px){
+    .distance{
+        display: block;
+    }
+    .mobile-distance{
+        display: none;
+    }
+    .card{
+        margin: auto;
+        width: 90%;
+        padding : 10px;
+        border: 1px solid #dddddd;
+    }
+}
+
+.card{
+    margin: auto;
+    width: 60%;
+    padding : 10px;
+    border: 1px solid #dddddd;
+}
+.title{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.title ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+.title ul li{
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+}

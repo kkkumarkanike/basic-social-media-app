@@ -1,0 +1,47 @@
+.flex-container {
+    display: flex;
+
+}
+
+.flex-child1 {
+    width: 70%;
+
+}
+.flex-child2 {
+    width : 30%;
+}
+.mobile{
+    display: none;
+}
+.tablet{
+    display: none;
+}
+
+@media (min-width: 399px) and (max-width: 1000px) {
+    .flex-container {
+        display: none;
+
+    }
+}
+@media (min-width: 300px) and (max-width: 398px)  {
+    .mobile{
+        display: block;
+        width: 100%;
+    }
+    .flex-container{
+        display: none;
+    }
+
+}
+@media (min-width: 399px) and (max-width: 499px)  {
+    .mobile{
+        display: block;
+        width: 100%;
+    }
+}
+@media (min-width: 500px) and (max-width: 999px)  {
+    .tablet{
+        display: block;
+        width: 100%;
+    }
+}

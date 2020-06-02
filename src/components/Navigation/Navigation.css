@@ -1,0 +1,77 @@
+.navigation{
+    padding : 0;
+    margin : 0
+}
+
+#mainNav{
+    /* position: fixed;
+    /* z-index: 1; */
+    /* position:fixed; */
+    width: 100%;
+    padding: 0;
+    position: fixed;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgb(76, 148, 148);
+
+}
+
+#mainNav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: rgb(76, 148, 148);
+    color: white;
+}
+#mainNav li{
+    font-size: 20px;
+    display:inline-block;
+    margin: 0;
+    padding : 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.signin:hover{
+    background-color: white;
+    color: rgb(76, 148, 148);
+}
+.signup:hover{
+    background-color: white;
+    color: rgb(76, 148, 148);
+}
+.createpost:hover{
+    background-color: white;
+    color: rgb(76, 148, 148);
+}
+/*.active{*/
+/*    background-color: white;*/
+/*    color: rgb(76, 148, 148);*/
+/*}*/
+.profile:hover{
+    background-color: white;
+    color: rgb(76, 148, 148);
+}
+
+
+#createpost{
+    color: white;
+}
+
+.active{
+    background-color: white;
+    color: rgb(76, 148, 148);
+}
+@media (max-width : 499px) {
+    #mainNav {
+        display: none;
+    }
+}
+.tags{
+    color: white;
+}
+.link-style{
+    text-decoration: none;
+    color: white;
+}
+.margin {
+    margin-bottom: 50px;
+}

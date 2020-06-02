@@ -1,0 +1,35 @@
+
+
+.text-center{
+    text-align: center;
+}
+
+.searchbox {
+    border-left: 1px solid #dddddd;
+    height: 100%;
+    position: fixed;
+    margin: auto;
+    width: 30%;
+
+}
+.search-input{
+    padding : 10px;
+    background-color: white;
+    border-left: 1px solid #cccccc;
+    margin-bottom: 20px;
+
+}
+.search-input:focus{
+    border: 1px solid #61dafb;
+    box-shadow: 0 0 5px #61dafb;
+}
+.users{
+    width: 90%;
+    margin: auto ;
+}
+
+
+
+
+/*******************************************************/
+

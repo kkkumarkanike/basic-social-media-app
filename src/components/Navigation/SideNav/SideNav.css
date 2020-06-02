@@ -1,0 +1,45 @@
+.sideNav{
+    position: fixed;
+    overflow-x: hidden;
+    z-index: 500;
+    width: 70%;
+    height: 100%;
+    transition: transform 0.3s ease-out;
+
+}
+.open{
+    transform: translateX(0)
+}
+.close{
+    transform: translateX(-100%);
+}
+@media (min-width : 500px) {
+    .sidebar{
+        display: none;
+    }
+}
+.sideNav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: rgb(76, 148, 148);
+    color: white;
+    height: 100%;
+}
+.sideNav li{
+    display:block;
+    padding: 20px;
+    /*text-align: center;*/
+    font-weight: bold;
+}
+.profile{
+    color: white;
+}
+.createpost:hover{
+    background-color: white;
+    color: rgb(76, 148, 148);
+}
+.link-style{
+    text-decoration: none;
+    color: white;
+}

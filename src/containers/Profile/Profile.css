@@ -1,0 +1,21 @@
+
+.mobile-distance{
+    display: none;
+}
+
+@media(min-width: 399px) and (max-width : 499px){
+    .distance{
+        display: none;
+    }
+    .mobile-distance{
+        display: block;
+    }
+}
+@media(min-width: 500px) and (max-width : 799px){
+    .distance{
+        display: block;
+    }
+    .mobile-distance{
+        display: none;
+    }
+}

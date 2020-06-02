@@ -1,0 +1,60 @@
+.barNavigation{
+    height: 0;
+    width: 0;
+    overflow-x: hidden;
+}
+#barNav{
+    padding: 0;
+    margin: 0;
+    width: 0;
+    position: fixed;
+    box-shadow: 0 2px 2px rgb(76, 148, 148);
+}
+#barNav ul{
+    background-color: rgb(76, 148, 148);
+    color: white;
+    margin: 0 ;
+    padding: 0;
+    box-shadow: 0 2px 2px rgb(76, 148, 148);
+}
+#barNav li{
+    padding: 15px;
+    display: inline-block;
+
+}
+.Hamberger{
+    width: 25px;
+    background-color: green;
+    height: 5px;
+    margin: 2px;
+}
+
+.bgr{
+    position: fixed;
+    width: 100%;
+    background-color: rgb(76, 148, 148);
+    color: white;
+    padding: 10px;
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+}
+@media (max-width : 499px) {
+    #barNav {
+        width: 100%;
+        z-index: 100;
+    }
+    .barNavigation{
+        overflow-x: visible;
+        z-index: 100;
+    }
+}
+.Bar{
+    width : 20px;
+    height : 4px;
+    background-color:white;
+}
+.link-style{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,340 @@
+.profile-posts{
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px #bbb;
+    width: 500px;
+    margin: auto;
+    padding-top: 10px;
+}
+h2{
+    text-align: center;
+    color:  rgb(76, 148, 148);
+}
+.name-block{
+    margin-left: 50px;
+    margin-right: 20px;
+    display: inline;
+}
+.name-block ul{
+    list-style-type: none;
+}
+.name-block ul li{
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+}
+.profile-pic{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.pic-size{
+    width: 60px;
+    height: 60px;
+    margin-top: 0;
+}
+.hr-line{
+    background-color: black;
+    width: 90%;
+    height: 2px;
+    margin-bottom: 0;
+
+}
+p.date{
+    margin-top: 0;
+    padding-left: 30px;
+    font-size: 10px;
+    color: #aaa;
+}
+
+.tabs ul{
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 8px;
+    box-shadow: 0 3px 5px #aaa;
+
+    /* padding : 3px; */
+}
+.item{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    color: #aaa;
+    width: 30%;
+    text-align: center;
+    padding-bottom: 5px;
+    margin: 0;
+    border-bottom: 2px solid white;
+}
+.item:hover{
+    border-bottom: 2px solid palevioletred;
+    color: palevioletred;
+}
+
+/****************************Posts**********************/
+.posts-block {
+    border: 1px solid #eee;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 0;
+    margin-bottom: 0;
+    box-shadow: 0 3px 5px #aaa;
+    padding : 0;
+    /* padding : 3px; */
+}
+.posts-block .title{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgb(199, 241, 241);
+}
+.posts-block .title ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+.posts-block .title ul li{
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+}
+.posts-block .title .profile-pic{
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.posts-block .title .pic-size{
+    width: 40px;
+    height: 40px;
+    margin-top: 0;
+}
+.message{
+    padding-left : 15px;
+    padding-right: 15px;
+}
+.accomplishments{
+    padding: 10px 10px 10px 20px;
+}
+.accomplishments .love{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+}
+.accomplishments .mess{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+}
+.love .notifications{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(231, 69, 69);
+    color: white;
+    text-align: center;
+    position: absolute;
+    top : -10px;
+    left: 10px;
+}
+.mess .notifications{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(76, 148, 148);
+    color: white;
+    text-align: center;
+    position: absolute;
+    top : -10px;
+    left: 10px;
+}
+.comments-section{
+    background-color: rgb(199, 241, 241);
+    padding-top: 5px;
+}
+.comments-section .title{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgb(199, 241, 241);
+}
+.comments-section .title ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+.comments-section .title ul li{
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+}
+.comments-section .title .profile-pic{
+    padding-top: 3px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 30px;
+}
+.comments-section .title .pic-size{
+    width: 40px;
+    height: 40px;
+    margin-top: 0;
+}
+.comments-section .title .inp{
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: blue
+}
+.commentors{
+    margin-top: 10px;
+}
+
+.commentors .title{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgb(199, 241, 241);
+}
+.commentors .title ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+.commentors .title ul li{
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+}
+.commentors .title .profile-pic{
+    padding-top: 3px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 30px;
+}
+.commentors .title .pic-size{
+    width: 40px;
+    height: 40px;
+    margin-top: 0;
+}
+.commentors .title .inp{
+    border-bottom: 1px solid #cccccc;
+    border-top: none;
+    border-left: none;
+    background-color: rgb(199, 241, 241);
+}
+
+
+.update{
+    color: #4C9494;
+}
+.trash{
+    color: palevioletred;
+}
+.update-delete{
+    margin-left: 180px;
+}
+.unfollow{
+    color : white;
+    font-size: 8px;
+    font-weight: bold;
+    border : none;
+    border-radius: 3px;
+    padding : 10px;
+    background-color: palevioletred;
+}
+.view-details{
+    color : white;
+    font-size: 8px;
+    font-weight: bold;
+    border : none;
+    border-radius: 3px;
+    padding : 10px;
+    background-color: rgb(76, 148, 148);
+}
+.unfollow-position{
+    float : right;
+    margin-right : 20px;
+}
+
+@media (min-width: 301px) and (max-width: 450px)  {
+    .profile-posts{
+        padding: 10px;
+        border: 1px solid #eee;
+        border-radius: 1px;
+        box-shadow: 0 3px 5px #bbb;
+        width: 85%;
+        margin: auto;
+        padding-top: 10px;
+        margin-top: 70px;
+        margin-bottom: 10px;
+    }
+    .update-delete {
+        margin-left: 70px;
+    }
+    .tabs ul{
+        list-style-type: none;
+        border: 1px solid #eee;
+        margin-left: 0px;
+        margin-right: 10px;
+        padding-top: 8px;
+        box-shadow: 0 3px 5px #aaa;
+        margin: auto;
+        margin-bottom: 20px;
+
+        /* padding : 3px; */
+    }
+}
+@media (min-width: 301px) and (max-width: 450px) {
+    .profile-posts{
+        padding: 5px;
+        border: 1px solid #eee;
+        border-radius: 1px;
+        box-shadow: 0 3px 5px #bbb;
+        width: 80%;
+        margin: auto;
+        padding-top: 10px;
+        margin-top: 70px;
+        margin-bottom: 10px;
+    }
+    .update-delete{
+        margin-left: 100px;
+    }
+}
+
+@media (min-width: 451px) and (max-width: 499px) {
+    .profile-posts{
+        padding: 10px;
+        border: 1px solid #eee;
+        border-radius: 1px;
+        box-shadow: 0 3px 5px #bbb;
+        width: 80%;
+        margin: auto;
+        padding-top: 10px;
+        margin-top: 70px;
+        margin-bottom: 10px;
+    }
+    .update-delete{
+        margin-left: 100px;
+    }
+}
+@media (min-width: 500px) and (max-width: 599px) {
+    .profile-posts{
+        padding: 10px;
+        border: 1px solid #eee;
+        border-radius: 1px;
+        box-shadow: 0 3px 5px #bbb;
+        width: 80%;
+        margin: auto;
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+    .update-delete{
+        margin-left: 135px;
+    }
+
+}
